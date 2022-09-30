@@ -1,12 +1,9 @@
-package Lesson4;
+package lesson4;
 
 public class Task1 {
         public static void main(String[] args) {
-            int j = 0;
-            do {
+            for (int j = 0; j <= 10; j++) {
                 System.out.println(j);
-                j++;
             }
-            while (j <= 10);
         }
     }
